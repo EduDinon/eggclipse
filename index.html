@@ -1,0 +1,105 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.U.G.O.E.</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: #121212;
+            color: #FFFFFF;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .highBox {
+            position: relative;
+            display: inline-flex;
+            top: 10%;
+        }   
+        .hader {
+            border-collapse: collapse;
+            td { 
+                border: #442c44 1px solid;
+            }
+            th {
+                border: #442c44 1px solid;
+                background-color: #552d75;
+                color: #FFFFFF;
+            }
+            td:nth-child(odd) {
+                padding-left: 10px;
+                padding-right: 10px;
+                background: #222222;
+                color: white;
+            }
+            td:nth-child(even) {
+                background: #000000;
+            }
+        }
+        th.th-sp {
+            vertical-align: middle;
+            padding: 10px;
+            h1 {
+                margin:0px;
+            }
+        }
+        .points {
+            width: 15px;
+            height: 15px;
+            margin: 2px;
+            border-radius: 50%;
+            border: 3px solid #303030;
+            cursor: pointer;
+            transition: border 0.2s ease, background-color 0.4s ease, transform 0.4s ease;
+            &.active {
+                border: 3px solid #FFFFFF;
+                background-color: #FFFFFF;
+                transform: scale(0.75);
+            }
+        }
+        .save-button {
+            position: fixed;
+            top: 13%;
+            padding: 5px 8px;
+            margin-left: 10px;
+            background-color: #552d75; 
+            color: #FFFFFF; 
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer;
+        }
+        .load-button {
+            position: fixed;
+            top: 16%;
+            padding: 5px 8px;
+            margin-left: 10px; 
+            background-color: #552d75; 
+            color: #FFFFFF; 
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer;
+        }
+        .footer-sugoe {
+            position: fixed; 
+            bottom: 0; 
+            left: 0; 
+            width: 100%; 
+            text-align: center; 
+            background-color: #121212;
+            color: #FFFFFF;
+            padding: 10px 0; 
+        }
+    </style>
+</head>
+<body>
+    <div class="highBox">
+        <table class="hader" id="hader"></table>
+    </div>
+    <button class="save-button" id="save-button">Salvar</button>
+    <button class="load-button" id="load-button">Carregar</button>
+    <div class="footer-sugoe">Sistema Unificado Geral de Operações da Eclipse</div>
+    
+    <!-- Firebase App (obrigatório) -->
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js"></script>
+    <!-- Firestore -->
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore.js"></script>
+    <script src="./js/sugoe.js"></script>
+</body>

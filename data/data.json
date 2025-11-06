@@ -1,0 +1,46 @@
+[
+    {
+        "approaches": [
+            { "name": "Usar",       "abbrev": "Us" },
+            { "name": "Adulterar" , "abbrev": "Ad" },
+            { "name": "Analisar",   "abbrev": "An" }
+        ],
+        "domains": [
+            { "name": "Atuação",        "abbrev": "At" },
+            { "name": "Cibernética",    "abbrev": "Ci" },
+            { "name": "Combate",        "abbrev": "Cm" },
+            { "name": "Corpo",          "abbrev": "Cr" },
+            { "name": "Eletrônica",     "abbrev": "El" },
+            { "name": "Lábia",          "abbrev": "La" },
+            { "name": "Lógica",         "abbrev": "Lo" },
+            { "name": "Ocultismo",      "abbrev": "Oc" }
+        ],
+        "actions": [
+            { "name": "Usar Atuação",           "abbrev": "UsAt", "description": "Esconder/destacar emoções" },
+            { "name": "Adulterar Atuação",      "abbrev": "AdAt", "description": "Adotar outra identidade" },
+            { "name": "Analisar Atuação",       "abbrev": "AnAt", "description": "Identificar comportamento suspeito" },
+            { "name": "Usar Cibernética",       "abbrev": "UsCi", "description": "Programar" },
+            { "name": "Adulterar Cibernética",  "abbrev": "AdCi", "description": "Hackear" },
+            { "name": "Analisar Cibernética",   "abbrev": "AnCi", "description": "Decodificar sistema" },
+            { "name": "Usar Combate",           "abbrev": "UsCm", "description": "Lutar corpo a corpo" },
+            { "name": "Adulterar Combate",      "abbrev": "AdCm", "description": "Fingir luta ou ameaça" },
+            { "name": "Analisar Combate",       "abbrev": "AnCm", "description": "Prever o oponente" },
+            { "name": "Usar Corpo",             "abbrev": "UsCr", "description": "Atletismo/acrobacia" },
+            { "name": "Adulterar Corpo",        "abbrev": "AdCr", "description": "Fingir luta ou ameaça" },
+            { "name": "Analisar Corpo",         "abbrev": "AnCr", "description": "Medicina/anatomia" },
+            { "name": "Usar Eletrônica",        "abbrev": "UsEl", "description": "Operar dispositivos eletrônicos" },
+            { "name": "Adulterar Eletrônica",   "abbrev": "AdEl", "description": "Montar/desmontar" },
+            { "name": "Analisar Eletrônica",    "abbrev": "AnEl", "description": "Pesquisa/engenharia reversa" },
+            { "name": "Usar Lábia",             "abbrev": "UsLa", "description": "Persuadir/ameaçar" },
+            { "name": "Adulterar Lábia",        "abbrev": "AdLa", "description": "Mentir/confundir" },
+            { "name": "Analisar Lábia",         "abbrev": "AnLa", "description": "Decifrar intenção da fala" },
+            { "name": "Usar Lógica",            "abbrev": "UsLo", "description": "Provar/usar estatísticas/ser coerente" },
+            { "name": "Adulterar Lógica",       "abbrev": "AdLo", "description": "Falsificar dados/ser lógico contrafactualmente" },
+            { "name": "Analisar Lógica",        "abbrev": "AnLo", "description": "Encontrar padrões/comparar" },
+            { "name": "Usar Ocultismo",         "abbrev": "UsOc", "description": "Realizar rituais" },
+            { "name": "Adulterar Ocultismo",    "abbrev": "AdOc", "description": "Ceder ao paranormal" },
+            { "name": "Analisar Ocultismo",     "abbrev": "AnOc", "description": "Estudar/conhecimento teórico" }
+        ]
+        
+    }
+]
